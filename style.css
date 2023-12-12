@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    background-color: rgb(175, 174, 174);
+    margin: 0px;
+    display: flex;  /* este comando indica que utilizamos los comandos flex*/
+    justify-content:flex-start; /*aline la la columna flex-start, center. flex-end*/
+    align-items:stretch; /* alinea en horizontal flex-start, center. flex-end*/
+    flex-direction: column;/*indica si esta en linea o columna column, column-revers, */
+}
+header{
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin: 0;
+    background-color:blanchedalmond;
+    display: flex;  /* este comando indica que utilizamos los comandos flex*/
+    justify-content: center; /*aline la la columna flex-start, center. flex-end*/
+    align-items: center; /* alinea en horizontal flex-start, center. flex-end*/
+    flex-direction: column;/*indica si esta en linea o columna column, column-revers, */
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color:red;
+    display: flex;  /* este comando indica que utilizamos los comandos flex*/
+    align-items: center;
+    justify-content: center; /*aline la la columna flex-start, center. flex-end*/
+    flex-direction: column;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    background-color: blanchedalmond;
+    display: flex;  /* este comando indica que utilizamos los comandos flex*/
+    justify-content: center; /*aline la la columna flex-start, center. flex-end*/
+}
+ section{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(190, 188, 185);
+    padding: 0%;
+    margin: 0%;
+    display: flex;  /* este comando indica que utilizamos los comandos flex*/
+    justify-content: stretch; /*aline la la columna flex-start, center. flex-end*/
+    align-items: stretch; /* alinea en horizontal flex-start, center. flex-end*/
+    flex-direction:column;/*indica si esta en linea o columna column, column-revers, */
+ }
+h2{
+    background-color:beige;
+    padding: 1%;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    background-color: rgb(246, 246, 168);
+    padding: 1%;
+    margin: 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+p{
+    background-color: white;
+    padding: 1%;
+    margin: 0px 5px 5px 5px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+}
+.datos_personales{
+    background-color:white;
+    padding: 0%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+.datos_personales section{
+    background-color: blanchedalmond;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+ul{
+    background-color: beige;
+    padding: 2px;
+    margin: 0px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+   }
+li{
+    list-style: square; /*viñeta cuadrada*/
+    list-style-position: inside;/* para que la viñeta quede dentro o fuera*/
+    text-align: justify;/*justificacion de texto*/
+    margin: 2px;/*interlineado*/
+
+}
